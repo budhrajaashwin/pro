@@ -52,16 +52,16 @@ Table of Contents:
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.pagination {	
+.pagination {
 	border-radius: 0;
 }
-.pagination>li:first-child>a, .pagination>li:first-child>span{	
+.pagination>li:first-child>a, .pagination>li:first-child>span{
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 0;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
-	background-color: #009440;
-	border-color: #009440;
+	background-color: #009540;
+	border-color: #009540;
 }
 .pagination>li:last-child>a, .pagination>li:last-child>span{
 	border-bottom-right-radius: 0;
@@ -74,8 +74,8 @@ Table of Contents:
 	color: #282828;
 }
 .btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
-	background-color: #009440;
-	border-color: #009440;
+	background-color: #009540;
+	border-color: #009540;
 }
 .form-control{
 	height: 46px;
@@ -110,8 +110,8 @@ Table of Contents:
 	font-size: 12px;
 	line-height: 20px;
 	color: #fff;
-	text-align: center;	
-	background-color: #009440;
+	text-align: center;
+	background-color: #009540;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: width .6s ease;
@@ -133,14 +133,14 @@ Table of Contents:
 	font-size: 22px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #333;	
+	color: #333;
 }
 .navbar-brand {
 	float: left;
 	height: 50px;
 	padding: 25px 25px;
 	font-size: 18px;
-	line-height: 20px;	
+	line-height: 20px;
 }
 .navbar {
 	border: none;
@@ -154,11 +154,11 @@ Table of Contents:
 	letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: #009440;
+	color: #009540;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: #009440;
+	color: #009540;
 	background-color: transparent;
 	-webkit-transition: background-color .2s linear, color .2s linear;
 	-moz-transition: background-color .2s linear, color .2s linear;
@@ -167,7 +167,7 @@ Table of Contents:
 	transition: background-color .2s linear, color .2s linear;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #009440;
+	background-color: #009540;
 }
 .navbar-default .navbar-toggle {
 	border-color: transparent;
@@ -201,7 +201,7 @@ Table of Contents:
 	border: none;
 	border-radius: 4px;
 }
-.navbar-collapse {	
+.navbar-collapse {
 	border-top: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -227,24 +227,24 @@ Table of Contents:
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 1;
-	color: #009440;
+	color: #009540;
 	text-shadow: none;
 	filter: none;
 	opacity: 100;
 }
 ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
+    display: block;
 }
 .dropdown-menu {
 	background-color: #f2f2f2;
-	border: none;	
+	border: none;
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 .dropdown-menu>li>a {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: block;
 	padding: 9px 20px;
@@ -339,11 +339,11 @@ body {
 	line-height: 22px;
 	color: #4c4c4c;
 }
-a{ 
+a{
 	color:#aaaaaa;
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .2s linear, color .2s linear;
 	-moz-transition: background-color .2s linear, color .2s linear;
 	-o-transition: background-color .2s linear, color .2s linear;
@@ -353,7 +353,7 @@ a{
 a:hover,
 a:focus {
 	text-decoration: none;
-	color:#009440;
+	color:#009540;
 	outline: none;
 	outline-offset: none;
 }
@@ -370,7 +370,7 @@ a:focus {
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 .head-title h2{
 	text-align: center;
@@ -390,13 +390,13 @@ a:focus {
 	font-size: 16px;
 	color: #282828;
 	text-transform: uppercase;
-	font-weight: 500;	
+	font-weight: 500;
 }
 .project-title h3{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: 600;	
+	font-weight: 600;
 }
 .title-devider{
 	border-bottom: 2px solid #c0c0c0;
@@ -444,7 +444,7 @@ a:focus {
 .white-btn{
 	color: #fff;
 	background-color: transparent;
-	border-color: #fff;	
+	border-color: #fff;
 }
 .white-btn:hover{
 	color: #000;
@@ -453,13 +453,13 @@ a:focus {
 }
 .gold-btn{
 	color: #fff;
-	background-color: #009440;
-	border-color: #009440;	
+	background-color: #009540;
+	border-color: #009540;
 }
 .gold-btn:hover{
 	color: #fff;
-	background-color: #00cc58;
-	border-color: #00cc58;	
+	background-color: #D8BA6F;
+	border-color: #D8BA6F;
 }
 /*loader*/
 .spinner {
@@ -495,10 +495,10 @@ a:focus {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% { 
+  0%, 80%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 40% { 
+  } 40% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
@@ -523,7 +523,7 @@ a:focus {
 	 text-align:center;
 }
 /*navbar*/
-.header-nav{	
+.header-nav{
 	text-align: center;
 	background: white;
 	border-color: transparent;
@@ -540,37 +540,37 @@ a:focus {
 	3) HEADER PAGES PARALLAX BACKGROUND
 ------------------------------------------------------- */
 
-#about_bg{	
+#about_bg{
 	background: url('../img/header_bg/image1.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-size: cover;					
+	background-size: cover;
 }
-#service_bg{	
+#service_bg{
 	background: url('../img/header_bg/image2.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-size: cover;					
+	background-size: cover;
 }
-#projects_bg{	
+#projects_bg{
 	background: url('../img/header_bg/image3.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-size: cover;	
+	background-size: cover;
 }
 #blog_bg{
 	color: #fff;
 	background: url('../img/header_bg/image4.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-size: cover;					
+	background-size: cover;
 }
 #blog2_bg{
 	color: #fff;
 	background: url('../img/header_bg/image5.jpg') 50% 0 no-repeat fixed;
 	padding-top: 80px;
 	padding-bottom: 80px;
-	background-size: cover;					
+	background-size: cover;
 }
 
 /* ----------------------------------------------------
@@ -582,8 +582,8 @@ a:focus {
 	background: url('../img/header_bg/service_bg.jpg') 50% 0 no-repeat fixed;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-size: cover;					
-}	
+	background-size: cover;
+}
 .price-table{
 	background-color: #f2f2f2;
 	border: 3px solid #f2f2f2;
@@ -591,7 +591,7 @@ a:focus {
 	padding-bottom: 20px;
 }
 .price-table:hover{
-	border: 3px solid #009440;
+	border: 3px solid #009540;
 }
 .price-table h3{
 	text-transform: uppercase;
@@ -622,15 +622,15 @@ a:focus {
 	margin-left: 25px;
 	margin-right: 25px;
 }
-.service-box-none p{	
+.service-box-none p{
 	margin-left: 25px;
 	margin-right: 25px;
-} 
+}
 .service-box-none h3{
 	padding: 10px 0;
 }
 .service-box-none i{
-	color: #009440;
+	color: #009540;
 }
 .service-box-none{
 	padding-top: 50px;
@@ -640,7 +640,7 @@ a:focus {
 	padding: 10px 0;
 }
 .service-box i{
-	color: #009440;
+	color: #009540;
 }
 .service-box{
 	padding-top: 50px;
@@ -687,7 +687,7 @@ a:focus {
 	padding-left: 10px;
 }
 .about-caption i{
-	color: #009440;
+	color: #009540;
 	font-size: 36px;
 }
 
@@ -703,12 +703,12 @@ a:focus {
 .project-inner{
 	position: relative;
 	padding: 0;
-	overflow: hidden;	
+	overflow: hidden;
 }
 .project-inner>img, .project-inner>a img, .project-caption>img{
 	display: block;
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 }
 .project-inner .project-caption{
 	position: absolute;
@@ -716,14 +716,14 @@ a:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(40,40,40,0.7);		
+	background: rgba(40,40,40,0.7);
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 	visibility: hidden;
-	opacity: 0;	
+	opacity: 0;
 }
 .project-inner:hover .project-caption, .project-inner:focus .project-caption{
 	visibility: visible;
@@ -745,7 +745,7 @@ a:focus {
 	margin-top: -20px;
 }
 .project-details p{
-	color: #009440;
+	color: #009540;
 }
 .all-projects{
 	background-color: transparent;
@@ -763,7 +763,7 @@ a:focus {
 	font-size: 1.3em;
 	font-weight: 600;
 }
-.project-title-devider{	
+.project-title-devider{
 	border-top: 1px solid #999;
 	width: 65px;
 	margin: 0 auto;
@@ -772,15 +772,15 @@ a:focus {
 /*cube portfolio*/
 .cbp-l-filters-alignRight .cbp-filter-item.cbp-filter-item-active {
 	color: #FFF;
-	background-color: #009440;
-	border-color: #009440;
+	background-color: #009540;
+	border-color: #009540;
 }
 
 .cbp-l-filters-alignRight .cbp-filter-counter {
-	background: #009440;
+	background: #009540;
 }
 .cbp-l-filters-alignRight .cbp-filter-counter:before {
-	border-top: 4px solid #009440;
+	border-top: 4px solid #009540;
 }
 .cbp-l-filters-alignRight {
 	text-align: center;
@@ -798,8 +798,8 @@ a:focus {
 }
 .cbp-l-filters-list .cbp-filter-item.cbp-filter-item-active {
 	color: #FFF;
-	background-color: #009440;
-	border-color: #009440;
+	background-color: #009540;
+	border-color: #009540;
 }
 .cbp-l-filters-list .cbp-filter-item {
 	background-color: transparent;
@@ -830,9 +830,9 @@ a:focus {
 	font: 300 18px/28px "Raleway",sans-serif;
 }
 .cbp-l-grid-blog-title:hover {
-	color: #009440;
+	color: #009540;
 }
-.cbp-popup-singlePage .cbp-popup-navigation-wrap {	
+.cbp-popup-singlePage .cbp-popup-navigation-wrap {
 	background-color: #2a2a2a;
 }
 .cbp-popup-singlePage .cbp-l-project-title {
@@ -848,7 +848,7 @@ a:focus {
 	-webkit-font-smoothing: antialiased;
 }
 .cbp-popup-singlePage-counter {
-	color: #009440;
+	color: #009540;
 }
 .cbp-l-grid-blog-desc {
 	font: 300 14px "Open Sans",sans-serif;
@@ -865,10 +865,10 @@ a:focus {
 ------------------------------------------------------- */
 
 #testimonials {
-	background-color: #f2f2f2;	
+	background-color: #f2f2f2;
 }
 .t-info b{
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 }
 
@@ -887,14 +887,14 @@ a:focus {
 .blog-inner h3{
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
-	font-weight: 600;	
+	font-weight: 600;
 }
 .blog-meta i{
-	color: #009440;
+	color: #009540;
 	margin-bottom: 15px;
 }
 .blog-meta span{
-	color: #009440;
+	color: #009540;
 	font-size: 13px;
 	margin-right: 7px;
 }
@@ -902,17 +902,17 @@ a:focus {
 	color: #333;
 }
 .blog-inner-title a:hover{
-	color: #009440;
+	color: #009540;
 }
-.blog-btn{	
+.blog-btn{
 	color: #fff;
-	background-color: #009440;
-	border-color: #009440;
+	background-color: #009540;
+	border-color: #009540;
 	width: 100%;
 }
 .blog-btn:hover{
-	border-color: #00cc58;
-	background-color: #00cc58;
+	border-color: #D8BA6F;
+	background-color: #D8BA6F;
 	color: #fff;
 }
 .media-left{
@@ -923,7 +923,7 @@ a:focus {
 }
 .blog-meta-inner span{
 	font-weight: bold;
-	color: #009440;	
+	color: #009540;
 }
 .blog-post-details blockquote{
 	color: #999;
@@ -936,15 +936,15 @@ a:focus {
 .team-inner{
 	position: relative;
 	padding: 0;
-	overflow: hidden;	
+	overflow: hidden;
 	border: none;
-	border-radius: 50%;	
-	margin: 0;	
+	border-radius: 50%;
+	margin: 0;
 }
 .team-inner>img, .team-inner>a img, .team-caption>img{
 	display: block;
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 }
 .team-inner .team-caption{
 	position: absolute;
@@ -955,14 +955,14 @@ a:focus {
 	border-radius: 50%;
 	display: table-cell;
 	vertical-align: middle;
-	background: rgba(40,40,40,0.9);		
+	background: rgba(40,40,40,0.9);
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
 	visibility: hidden;
-	opacity: 0;	
+	opacity: 0;
 }
 .team-inner:hover .team-caption, .team-inner:focus .team-caption{
 	visibility: visible;
@@ -971,7 +971,7 @@ a:focus {
 .team-details h5{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	color: #009440;
+	color: #009540;
 	margin-top: 20px;
 }
 .team-details p{
@@ -982,7 +982,7 @@ a:focus {
     font-size: 16px;
     color: #282828;
     text-transform: uppercase;
-    font-weight: 500;   
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -1004,20 +1004,20 @@ a:focus {
 	border: none;
 	border-radius: 0;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 .blog-img img{
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
-	transition: all .4s ease-in-out; 
+	transition: all .4s ease-in-out;
 }
 .blog-img img:hover{
-	-moz-transform: scale(1.1); 
-	-webkit-transform: scale(1.1); 
-	-o-transform: scale(1.1); 
-	transform: scale(1.1); 
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
 }
 #our-clients{
 	background-color: #f2f2f2;
@@ -1027,9 +1027,9 @@ a:focus {
 	10) CONTACT STYLES
 ------------------------------------------------------- */
 
-.contact-icon i{	
+.contact-icon i{
 	font-size: 26px;
-	color: #009440;
+	color: #009540;
 	margin-top: 5px;
 }
 .contact-icon.col-sm-2{
@@ -1045,7 +1045,7 @@ ul.contact-social{
 }
 .contact-social li{
 	display: inline-block;
-	
+
 }
 .btn-submit{
 	text-transform: uppercase;
@@ -1054,11 +1054,11 @@ ul.contact-social{
 	letter-spacing: 3px;
 	width: 185px;
 	margin: 15px 0px;
-	padding: 12.9px;	
-	border-color: #009440;
-	background-color: #009440;
-	border-radius: 0;	
-	color: #fff;		
+	padding: 12.9px;
+	border-color: #009540;
+	background-color: #009540;
+	border-radius: 0;
+	color: #fff;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
@@ -1066,54 +1066,54 @@ ul.contact-social{
 	transition: all .4s ease-in-out;
 }
 .btn-submit:hover{
-	border-color: #00cc58;
-	background-color: #00cc58;
+	border-color: #D8BA6F;
+	background-color: #D8BA6F;
 	color: #fff;
 }
 #map-canvas {
 	height: 400px;
 	width: auto;
 }
-#contact input, select { 
-	width: 100%; 
-	padding: 12.9px; 
-	color: #444; 
-	background: #fff; 
-	border: 1px solid #F0F0F0; 
-	margin: 7px 0px; 	
+#contact input, select {
+	width: 100%;
+	padding: 12.9px;
+	color: #444;
+	background: #fff;
+	border: 1px solid #F0F0F0;
+	margin: 7px 0px;
 	font-weight: 100;
 }
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 	box-shadow: none;
 	outline: 0 none;
 }
-textarea{ 
-	width: 100%; 
+textarea{
+	width: 100%;
 	height: 175px;
-	padding: 13px; 
-	color: #444; 
-	background: #fff; 
-	border: 1px solid #F2F2F2; 
+	padding: 13px;
+	color: #444;
+	background: #fff;
+	border: 1px solid #F2F2F2;
 	margin-top: 7px;
-	margin-right:15px;	
+	margin-right:15px;
 	font-weight: 100;
 }
-#contact input:focus, textarea:focus, select:focus{ 
-	border: 1px solid #009440; 
+#contact input:focus, textarea:focus, select:focus{
+	border: 1px solid #009540;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-ms-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
-	color: #444; 
+	color: #444;
 }
-#contact span.required{ 
-	font-size: 13px; 
-	color: #ff0000; 
+#contact span.required{
+	font-size: 13px;
+	color: #ff0000;
 }
-#message{ 
-	margin: 10px 0; 
-	padding: 0; 
+#message{
+	margin: 10px 0;
+	padding: 0;
 }
 .error_message{
 	height: 100%;
@@ -1125,22 +1125,22 @@ textarea{
 	padding: 3px 10px 3px 10px;
 	color: #fff;
 	-webkit-border-radius: 5px;
-	background-color: #009440;	
+	background-color: #009540;
 	background-position: 10px center;
 	background-repeat: no-repeat;
 }
-.loader{ 
-	padding: 0 10px; 
+.loader{
+	padding: 0 10px;
 }
-acronym{ 
-	border-bottom:1px dotted #ccc; 
+acronym{
+	border-bottom:1px dotted #ccc;
 }
 #success_page{
 	text-align: center;
 }
 #success_page strong{
-	color: #009440;
-}	
+	color: #009540;
+}
 
 /* ----------------------------------------------------
 	11) FOOTER STYLES
@@ -1160,7 +1160,7 @@ acronym{
 	padding-bottom: 50px;
 }
 .f-inner:hover{
-	background-color: #009440;
+	background-color: #009540;
 	color: #fff;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
@@ -1180,7 +1180,7 @@ acronym{
 	line-height: 31px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	color: #fff;	
+	color: #fff;
 	-webkit-font-smoothing: antialiased;
 }
 .f-space{
@@ -1188,7 +1188,7 @@ acronym{
 }
 .f-inner strong{
 	font-family: 'Raleway', sans-serif;
-	color: #ffffff!important;	
+	color: #ffffff!important;
 	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -1200,7 +1200,7 @@ acronym{
 	margin: 0;
 }
 .f-inner i{
-	color: #009440;
+	color: #009540;
 }
 .f-copyright{
 	margin-top: 6px;
@@ -1214,7 +1214,7 @@ ul.footer-social{
 	padding: 0;
 	margin: 0;
 }
-.footer-social li{	
+.footer-social li{
 	display: inline-block;
 }
 .f-cta{
@@ -1222,12 +1222,12 @@ ul.footer-social{
 	padding: 30px 0;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	background-color: #009440;
+	background-color: #009540;
 	font-size: 15px;
 	line-height: 25px;
 	color: #ffffff;
 	text-align: center;
-	display: block;	
+	display: block;
 	position: relative;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -1245,7 +1245,7 @@ ul.footer-social{
 	margin-bottom: 30px;
 }
 .cta-section{
-	color: #fff;	
+	color: #fff;
 	background: url('../img/header_bg/bg2.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
 }
@@ -1259,7 +1259,7 @@ ul.footer-social{
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 .cta-title h2{
 	font-family: 'Raleway', sans-serif;
@@ -1271,26 +1271,26 @@ ul.footer-social{
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 
 /* ----------------------------------------------------
 	12)	OFF-CANVAS MENU
 ------------------------------------------------------- */
-.canvas-nav li{	
+.canvas-nav li{
 	padding-top: 30px;
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 2.4em;
 	text-align: center;
 	text-transform: uppercase;
-	list-style: none;		
+	list-style: none;
 }
-.canvas-nav a{		
+.canvas-nav a{
 	color: #999;
 }
 .canvas-nav a:hover{
-	color: #009440;
+	color: #009540;
 	background-color: #fff;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -1319,8 +1319,8 @@ ul.footer-social{
 	border-radius: 0;
 	margin: 0;
 	padding: 20px 0;
-	width: 100%;	
-	color: #fff;	
+	width: 100%;
+	color: #fff;
 }
 .mm-menu {
 	background: #2a2a2a;
@@ -1397,14 +1397,14 @@ ul.footer-social{
 .black-btn{
 	color: #fff;
 	background-color: #222;
-	border-color: #222;	
+	border-color: #222;
 }
 .black-btn:hover{
 	color: #fff;
 	background-color: #333;
 	border-color: transparent;
 }
-.header-nav-black{	
+.header-nav-black{
 	background-color: #222;
 }
 .navbar-default .navbar-nav>li>a {
@@ -1474,11 +1474,11 @@ a.cbp-l-grid-blog-comments-black:hover{
 .close-black{
 	color: #222;
 }
-.footer-social-black a{ 
+.footer-social-black a{
 	color:#444;
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .2s linear, color .2s linear;
 	-moz-transition: background-color .2s linear, color .2s linear;
 	-o-transition: background-color .2s linear, color .2s linear;
@@ -1518,11 +1518,11 @@ a:focus {
 /* ----------------------------------------------------
 	15)	404 PAGE STYLES
 ------------------------------------------------------- */
-.main-title h1{	
+.main-title h1{
 	font-size: 210px;
 	font-weight: 600;
 	letter-spacing: 3px;
-	color: #009440;
+	color: #009540;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
@@ -1551,7 +1551,7 @@ a:focus {
 	16)	COMING SOON TIMER STYLES
 ------------------------------------------------------- */
 #counter {
-	color: #009440;
+	color: #009540;
 	overflow: hidden;
 }
 
@@ -1591,11 +1591,11 @@ a:focus {
 	line-height: 31px;
 	font-weight: 300;
 	letter-spacing: 3px;
-	color: #009440;
+	color: #009540;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 
 /* ----------------------------------------------------
