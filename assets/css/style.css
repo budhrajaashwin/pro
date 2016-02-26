@@ -645,10 +645,10 @@ a:focus {
 .service-box{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-bottom: 1px solid #DEDEDE;
+/*	border-bottom: 1px solid #DEDEDE; */
 }
 .service-box-l{
-	border-left: 1px solid #DEDEDE;
+	/* border-left: 1px solid #DEDEDE; */
 }
 
 /* ----------------------------------------------------
