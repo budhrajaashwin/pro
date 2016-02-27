@@ -458,8 +458,8 @@ a:focus {
 }
 .gold-btn:hover{
 	color: #fff;
-	background-color: #D8BA6F;
-	border-color: #D8BA6F;
+	background-color: #00bb52;
+	border-color: #00bb52;
 }
 /*loader*/
 .spinner {
@@ -911,8 +911,8 @@ a:focus {
 	width: 100%;
 }
 .blog-btn:hover{
-	border-color: #D8BA6F;
-	background-color: #D8BA6F;
+	border-color: #00bb52;
+	background-color: #00bb52;
 	color: #fff;
 }
 .media-left{
@@ -1066,8 +1066,8 @@ ul.contact-social{
 	transition: all .4s ease-in-out;
 }
 .btn-submit:hover{
-	border-color: #D8BA6F;
-	background-color: #D8BA6F;
+	border-color: #00bb52;
+	background-color: #00bb52;
 	color: #fff;
 }
 #map-canvas {
